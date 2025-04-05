@@ -1,0 +1,77 @@
+/*
+==  THEME DETAILS  ============================================================
+
+    Theme Name: R.One Creative Official Theme
+    Theme URI: https://r1creative.net
+    Description: A Responsive Wordpress Blog and Portfolio Theme
+    Version: 3.0
+
+    Author: Mohammad
+    Author URI: https://r1creative.net
+
+    License: GNU General Public License version 3.0
+    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+===============================================================================
+*/
+
+/* =====================================
+IMPORTS
+===================================== */
+
+/* Style begin here */
+
+.c-header__menu-wrap .u-button.u-button__yellow{
+    background: #f8d25a;
+    margin-right: 15px;
+    width: 165px;
+}
+
+.is-fixed .u-button.u-button__yellow{
+    background: #fff;
+    color: #68d6af;
+    border: 2px solid #fff !important;
+    padding: 0 !important;
+}
+
+.s-main-menu li{
+    margin-right: 50px;
+}
+
+.s-main-menu li:last-child{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1130px){
+    .c-header__menu-wrap .u-button{
+        width: 165px;
+    }
+
+    .c-header__menu-wrap .u-button.u-button__yellow{
+        width: 135px;
+    }
+
+    .s-main-menu li{
+        margin-right: 30px;
+    }
+    
+    .s-main-menu li:last-child{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .c-header__logo{
+        max-width: 104px;
+    }
+
+    .c-header__menu-wrap .u-button.u-button__yellow{
+        width: 80px !important;
+        margin-right: 3px;
+    }
+
+    .c-header__menu-wrap .u-button{
+        width: 106px;
+        max-width: 100% !important;
+    }
+}
